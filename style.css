@@ -1,0 +1,203 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #ffeeff;
+    text-decoration: underline;
+}
+article{
+    height: 75vh;
+    width: 75vh;
+    background-color: #ddd;
+}
+ul{
+    height: 35vh;
+    overflow-y: scroll;
+    position: fixed;
+    left: 0;
+    top: 15vh;
+    list-style-type: none;
+    padding: 0;
+    background-color: #cc5;
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+    color: #ffeeff;
+    font-size: 2rem;
+   line-height: 3rem;
+}
+li{
+    height: 3rem;
+    width: 3.5rem;
+    background-color: #c5c;
+    text-align: center;
+    border: 1.5px #fff solid;
+}
+li:hover{
+    background-color: #5cc;
+}
+section:nth-of-type(1) article{
+
+    background-image: 
+    linear-gradient(       
+        transparent 50%,
+        #1c356d 50%
+    );
+    background-size: 4rem 4rem;
+
+}
+
+section:nth-of-type(2) article{
+    background-image: 
+    linear-gradient(       
+        transparent 50%,
+        #1c356daa 50%
+    ),
+    linear-gradient(
+        90deg,
+        #016450aa 50%,
+        #fdcfd5 50%
+    );
+    background-size: 4rem 4rem;
+}
+section:nth-of-type(3) article{
+    background-color: #1c356d;
+    background-image: 
+    linear-gradient(
+        -45deg,
+        transparent 75%,
+        #f0f230 25%
+    ),
+    linear-gradient(
+        45deg,
+        transparent 75%,
+        #f0f230 25%
+    ),
+    linear-gradient(
+        135deg,
+        transparent 75%,
+        #f0f230 25%
+    ),
+    linear-gradient(
+        -135deg,
+        transparent 75%,
+        #f0f230 25%
+    );
+    
+      background-size: 4rem 4rem; 
+  
+    
+    }
+section:nth-of-type(4) article{
+background-color: #f7ced2;
+background-image: 
+linear-gradient(
+    -45deg,
+    transparent 75%,
+    #ef1e31 25%
+),
+linear-gradient(
+    45deg,
+    transparent 75%,
+    #ef1e31 25%
+),
+linear-gradient(
+    135deg,
+    transparent 75%,
+    #ef1e31 25%
+),
+linear-gradient(
+    -135deg,
+    transparent 75%,
+    #ef1e31 25%
+);
+
+  background-size: 4rem 4rem; 
+background-position: 2rem 0,2rem 0,0 0,0 0;
+
+}
+section:nth-of-type(5) article{
+background-color: #161547;
+background-image: 
+radial-gradient(
+    circle,
+    transparent 1rem,
+    #161547 1rem
+    
+),
+linear-gradient(
+
+#2af557 0.5rem,
+transparent 0.5rem
+
+
+),
+linear-gradient(
+90deg,
+#2af557 0.5rem,
+transparent 0rem
+
+
+);
+background-size: 3rem 3rem;
+background-position: 1.75rem 1.75rem, 0 0,0 0 ;
+
+}
+
+section:nth-of-type(6) article{
+
+    background-color: #405060;
+    background-image:
+    radial-gradient(
+        circle at 100% 50%,
+        transparent 1rem,
+        steelblue 1rem,
+        steelblue 1.5rem,
+        transparent 1.5rem
+    ),
+    radial-gradient(
+        circle  at 0% 50%,
+        transparent 1rem,
+        pink 1rem,
+        pink 1.5rem,
+        transparent 1.5rem
+    );
+background-size: 3rem 5rem;
+background-position: 0 0, 0 2.5rem;
+
+}
+section:nth-of-type(7) article{
+
+background-color: #405060;
+background-image: 
+conic-gradient(
+    from 330deg at 50% 70%,
+    #aacccc 60deg,
+    transparent 60deg
+    
+),
+conic-gradient(
+    from 150deg at 50% 30%,
+    #ccaacc 60deg,
+    transparent 60deg
+    
+);
+background-size: 5rem 2.5rem;
+background-position: 0 0, 1.5rem 0;
+
+}
